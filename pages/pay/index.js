@@ -235,7 +235,7 @@ Page({
     }
     if (this.data.create_order_select_time == '1') {
       if (postData.peisongType == 'zq') {
-        extJsonStr['取餐时间'] = this.data.diningTime
+        extJsonStr['时间'] = this.data.diningTime
       } else {
         extJsonStr['送达时间'] = this.data.diningTime
       }

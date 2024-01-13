@@ -2,7 +2,7 @@
   <van-empty image="error" description="今天你已经提交{{ feedbackTimes.refId }}次，明天再来吧" />
 </block>
 <block wx:else>
-  <van-field
+  <!-- <van-field
     label="姓名"
     model:value="{{ name }}"
     placeholder="如何称呼您"
@@ -20,7 +20,7 @@
     model:value="{{ wx }}"
     placeholder="填写您的微信号"
     clearable
-  />
+  /> -->
   <view style="margin-top:16rpx;padding-left:32rpx;">
     <van-uploader
       accept="media"

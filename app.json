@@ -30,7 +30,7 @@
     "pages/goods-details/index"
   ],
   "requiredPrivateInfos": [
-    "getLocation",
+    "getFuzzyLocation",
     "chooseLocation",
     "chooseAddress"
   ],
@@ -49,19 +49,19 @@
         "pagePath": "pages/index/index",
         "iconPath": "images/nav/index-off.png",
         "selectedIconPath": "images/nav/index-on.png",
-        "text": "点餐"
+        "text": "测试1"
       },
       {
         "pagePath": "pages/queue/index",
         "iconPath": "images/nav/qh-off.png",
         "selectedIconPath": "images/nav/qh-on.png",
-        "text": "取号"
+        "text": "测试2"
       },
       {
         "pagePath": "pages/order-details/doing",
         "iconPath": "images/nav/qc-off.png",
         "selectedIconPath": "images/nav/qc-on.png",
-        "text": "取餐"
+        "text": "测试3"
       },
       {
         "pagePath": "pages/my/index",

@@ -11,8 +11,8 @@
   <view class="shop-name">
     <view class="name" bindtap="selectshop">{{shopInfo.name}}</view>
     <view wx:if="{{ shopInfo.openWaimai && shopInfo.openZiqu }}" class="select">
-      <view class="{{peisongType == 'zq' ? 'on' : 'off'}}" data-type="zq" bindtap="changePeisongType">自取</view>
-      <view class="{{peisongType == 'kd' ? 'on' : 'off'}}" data-type="kd" bindtap="changePeisongType">外卖</view>
+      <view class="{{peisongType == 'zq' ? 'on' : 'off'}}" data-type="zq" bindtap="changePeisongType">选择1</view>
+      <view class="{{peisongType == 'kd' ? 'on' : 'off'}}" data-type="kd" bindtap="changePeisongType">选择2</view>
     </view>
   </view>
   <view class="distance-bar">
@@ -81,13 +81,13 @@
 
 <view class="cart-bar" wx:if="{{shippingCarInfo && shippingCarInfo.number}}">
   <view class="l" bindtap="showCartPop">
-    <van-button type="default" round icon="shopping-cart-o">购物车</van-button>
+    <van-button type="default" round icon="shopping-cart-o">测试4</van-button>
     <view class="badge">{{shippingCarInfo.number}}</view>
   </view>  
   <view class="r">
     <view class="amount"><text>¥</text>{{shippingCarInfo.price}}</view>
     <view wx:if="{{shopIsOpened}}" class="topay" bindtap="goPay">选好了</view>
-    <view wx:elif="{{ !shopInfo }}" class="topay" bindtap="getshopInfo">获取门店</view>
+    <view wx:elif="{{ !shopInfo }}" class="topay" bindtap="getshopInfo">获取</view>
     <view wx:else class="topay noopen">未营业</view>
   </view>
 </view>

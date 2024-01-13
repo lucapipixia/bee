@@ -193,9 +193,9 @@ https://developers.weixin.qq.com/miniprogram/dev/framework/open-ability/getPhone
 
 官方文档有说明，获取手机号码的前提条件是：非个人开发者，且完成了认证的小程序开放（不包含海外主体）
 
-## wx.getLocation 改为 wx.getFuzzyLocation (getLocation的接口权限太难申请了)
+## wx.getFuzzyLocation改为 wx.getFuzzyLocation (getFuzzyLocation的接口权限太难申请了)
 
-微信申请 getLocation 接口的审核比较严格，可能比较难申请到这个接口，可以用 wx.getFuzzyLocation 来代替： https://developers.weixin.qq.com/miniprogram/dev/api/location/wx.getFuzzyLocation.html
+微信申请 getFuzzyLocation 接口的审核比较严格，可能比较难申请到这个接口，可以用 wx.getFuzzyLocation 来代替： https://developers.weixin.qq.com/miniprogram/dev/api/location/wx.getFuzzyLocation.html
 
 
 开发工具，全局替换以下代码：
@@ -212,11 +212,11 @@ https://developers.weixin.qq.com/miniprogram/dev/framework/open-ability/getPhone
 
 再全局替换代码：
 
-`wx.getLocation` 替换为 `wx.getFuzzyLocation`
+`wx.getFuzzyLocation` 替换为 `wx.getFuzzyLocation`
 
 再全局替换代码：
 
-`"getLocation"` 替换为 `"getFuzzyLocation"`
+`"getFuzzyLocation"` 替换为 `"getFuzzyLocation"`
 
 ## 小程序订单中心path 怎么填
 

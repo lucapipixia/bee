@@ -31,7 +31,7 @@ Page({
       return
     }
     if (!this.data.content) {
-      this.data.content = '申请入驻'
+      this.data.content = '申请意见反馈2'
     }
     if (!this.data.content) {
       wx.showToast({

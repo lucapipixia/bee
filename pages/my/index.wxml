@@ -48,7 +48,7 @@
 	<van-cell icon="info-o" title="关于我们" size="large" is-link url="/pages/about/index" />
   <van-cell icon="service-o" wx:if="{{ customerServiceType == 'QW' }}" title="联系客服" size="large" is-link bind:click="customerService" />
   <van-cell icon="points" title="清除缓存" size="large" is-link bind:click="clearStorage" />
-	<van-cell icon="records" title="意见反馈" is-link url="/pages/my/feedback" />
+	<!-- <van-cell icon="records" title="意见反馈" is-link url="/pages/my/feedback" /> -->
 </view>
 <view class="version">v{{version}}</view>
 

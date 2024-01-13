@@ -21,7 +21,7 @@ Page({
     })
   },
   onShow: function () {
-    wx.getLocation({
+    wx.getFuzzyLocation({
       type: 'wgs84', //wgs84 返回 gps 坐标，gcj02 返回可用于 wx.openLocation 的坐标
       success: (res) => {
         this.data.latitude = res.latitude
